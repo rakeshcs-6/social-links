@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 90%;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 90%;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.place {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.summary {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+
+button {
+    color: hsl(0, 0%, 100%);
+    width: 340px;
+    background: hsl(0, 0%, 20%);
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.active-btn {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+        height: 90%;
+    }
+
+    img {
+        border-radius: 50%;
+        margin-bottom: 25px;
+    }
+
+    .name {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 10px;
+        font-weight: 900;
+
+
+    }
+
+    .place {
+        color: hsl(75, 94%, 57%);
+        margin-bottom: 20px;
+
+    }
+
+    .summary {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 20px;
+
+    }
+
+
+    button {
+        color: hsl(0, 0%, 100%);
+        width: 340px;
+        background: hsl(0, 0%, 20%);
+        height: 45px;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+
+    }
+
+    .active-btn {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+        font-weight: bold;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+        font-weight: bold;
+    }
+}
